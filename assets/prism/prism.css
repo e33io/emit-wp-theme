@@ -1,0 +1,144 @@
+/*
+Monokai Mod - a theme for PrismJS
+URL: https://git.sr.ht/~e33io/webdev/tree/main/item/prism.css
+For WordPress, copy the theme file here: assets/prism/prism.css, and use the
+Code Syntax Block plugin (https://wordpress.org/plugins/code-syntax-block)
+*/
+:root {
+	--mm-red: #fc618d;
+	--mm-orange: #fd9353;
+	--mm-yellow: #fce566;
+	--mm-green: #7bd88f;
+	--mm-cyan: #53e1e2;
+	--mm-blue: #78c5eb;
+	--mm-pink: #ff79c6;
+	--mm-purple: #948ae3;
+	--mm-grey12: #1e1e1e;
+	--mm-grey15: #252525;
+	--mm-grey21: #353535;
+	--mm-grey30: #4d4d4d;
+	--mm-grey33: #535353;
+	--mm-grey42: #6c6c6c;
+	--mm-grey50: #7f7f7f;
+	--mm-grey67: #aaaaaa;
+	--mm-grey80: #cccccc;
+	--mm-grey87: #dddddd;
+	--mm-grey93: #eeeeee;
+}
+code[class*="language-"],
+pre[class*="language-"] {
+	color: var(--mm-grey93);
+	background: none;
+	font-family: var(--monospace, monospace);
+	font-size: 0.937rem;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+	tab-size: 4;
+	hyphens: none;
+}
+/* code blocks */
+pre[class*="language-"] {
+	padding: 1rem;
+	overflow: auto;
+	border-radius: 0;
+}
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: var(--block-color, var(--mm-grey15));
+}
+/* inline code */
+:not(pre) > code[class*="language-"] {
+	border-radius: 0.25rem;
+	padding: 1px 4px;
+	white-space: normal;
+}
+/* minified code blocks */
+pre.minified code {
+	word-wrap: break-word;
+	word-break: break-all;
+	white-space: pre-wrap;
+}
+/* scrollbars */
+pre::-webkit-scrollbar {
+	height: 0.66rem;
+	width: 0.66rem;
+}
+pre::-webkit-scrollbar-thumb {
+	background-color: var(--mm-grey42);
+}
+pre::-webkit-scrollbar-track {
+	background-color: var(--mm-grey30);
+}
+/* tokens */
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: var(--mm-grey42);
+}
+.token.punctuation {
+	color: var(--mm-grey80);
+}
+.namespace {
+	opacity: 0.7;
+}
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: var(--mm-blue);
+}
+.token.boolean,
+.token.number {
+	color: var(--mm-purple);
+}
+.token.selector,
+.token.attr-name,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: var(--mm-green);
+}
+.token.string {
+	color: var(--mm-yellow);
+}
+.token.operator,
+.token.entity,
+.token.url,
+.token.variable {
+	color: var(--mm-cyan);
+}
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: var(--mm-green);
+}
+.token.keyword,
+.language-css .token.important {
+	color: var(--mm-red);
+}
+.token.regex,
+.token.important {
+	color: var(--mm-orange);
+	font-weight: 400;
+}
+.token.italic,
+.token.comment {
+	font-style: italic;
+}
+.token.entity {
+	cursor: help;
+}
+.prism-titlename {
+	float: right;
+	margin: -0.85rem -0.75rem;
+	font-size: 0.66rem;
+	text-transform: uppercase;
+	color: var(--mm-grey50);
+}
