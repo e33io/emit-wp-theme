@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
-<!-- emit wp theme - https://git.sr.ht/~e33io/emit-wp-theme -->
+<!-- emit wp theme - https://github.com/e33io/emit-wp-theme -->
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="<?php bloginfo( 'description' ); ?> - all content &copy; <?php bloginfo( 'name' ); ?> - all rights reserved" />
