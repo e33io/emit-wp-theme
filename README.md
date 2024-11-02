@@ -14,7 +14,7 @@ an ultra-minimalistic blog theme for [WordPress](https://wordpress.org) - view a
 
 - one full-width, and two half-width widget areas in the footer
 
-- [Inter](https://rsms.me/inter) and [PlexMonoMod](https://git.sr.ht/~e33io/fonts/tree/main/item/PlexMonoMod) fonts
+- [Inter](https://rsms.me/inter) and [PlexMonoMod](https://github.com/e33io/fonts?tab=readme-ov-file#plexmonomod) fonts
 
 - Prism syntax highlighting for posted code blocks (see Note #1 below)
 
@@ -40,4 +40,4 @@ an ultra-minimalistic blog theme for [WordPress](https://wordpress.org) - view a
 	- for posting minified code in the Code Block, go to Advanced > Additional CSS Class(es), and add `minified`
 
 ### License
-[BSD Zero Clause License](https://git.sr.ht/~e33io/emit-wp-theme/tree/main/item/LICENSE)
+[BSD Zero Clause License](https://github.com/e33io/emit-wp-theme/blob/main/LICENSE)
