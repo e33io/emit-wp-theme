@@ -44,7 +44,7 @@ add_action( 'enqueue_block_editor_assets', 'emit_block_editor_styles' );
 function emit_scripts_styles() {
 	wp_enqueue_style( 'emit-style', get_stylesheet_uri() );
 	wp_enqueue_style( 'emit-inter-font', get_theme_file_uri( '/assets/fonts/inter/inter.css' ), false );
-	wp_enqueue_style( 'emit-plexmonomod-font', get_theme_file_uri( '/assets/fonts/plexmonomod/plexmonomod.css' ), false );
+	wp_enqueue_style( 'emit-sovranmono-font', get_theme_file_uri( '/assets/fonts/sovranmono/sovranmono.css' ), false );
 	if ( ( ! is_admin() ) && is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}

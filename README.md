@@ -14,7 +14,7 @@ an ultra-minimalistic blog theme for [WordPress](https://wordpress.org) - view a
 
 - one full-width, and two half-width widget areas in the footer
 
-- [Inter](https://rsms.me/inter) and [PlexMonoMod](https://github.com/e33io/fonts?tab=readme-ov-file#plexmonomod) fonts
+- [Inter](https://rsms.me/inter) and [SovranMono](https://github.com/e33io/sovran-fonts/tree/main/SovranMono) fonts
 
 - Prism syntax highlighting for posted code blocks (see Note #1 below)
 
