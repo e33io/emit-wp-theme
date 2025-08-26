@@ -4,8 +4,6 @@ an ultra-minimalistic blog theme for [WordPress](https://wordpress.org) - view a
 
 ### Highlights and Details
 
-- ultra-minimalistic design
-
 - dark theme by default, light theme activated with `prefers-color-scheme: light` CSS
 
 - single-column layout
@@ -40,4 +38,4 @@ an ultra-minimalistic blog theme for [WordPress](https://wordpress.org) - view a
 	- for posting minified code in the Code Block, go to Advanced > Additional CSS Class(es), and add `minified`
 
 ### License
-[BSD Zero Clause License](https://github.com/e33io/emit-wp-theme/blob/main/LICENSE)
+[The Unlicense](https://github.com/e33io/emit-wp-theme/blob/main/LICENSE)
