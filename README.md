@@ -1,6 +1,6 @@
 # emit wp theme
 
-an ultra-minimalistic blog theme for [WordPress](https://wordpress.org) - view a live example here: https://emit.e33.io
+an ultra-minimalistic blog theme for [WordPress](https://wordpress.org)
 
 ### Highlights and Details
 
